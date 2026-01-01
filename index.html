@@ -29,16 +29,7 @@
       }
     }
   </style>
-  <script>
-    window.onerror = function (message, source, lineno, colno, error) {
-      document.body.innerHTML += '<div style="color:red; padding:20px; border:1px solid red; margin:20px; background:white;">' +
-        '<h3>Global Error:</h3>' +
-        '<p>' + message + '</p>' +
-        '<p>Source: ' + source + ':' + lineno + '</p>' +
-        '<pre>' + (error && error.stack ? error.stack : '') + '</pre>' +
-        '</div>';
-    };
-  </script>
+
 </head>
 
 <body class="bg-slate-50 text-slate-900 antialiased selection:bg-blue-100">
